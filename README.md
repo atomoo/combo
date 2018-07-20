@@ -14,5 +14,5 @@ const obj2 = {
         b: null
     }
 }
-getComboValue(obj, 'a.b.c') // {error: '', value: 123}
+getComboValue(obj, 'a.b.c') // {error: 'o.b has an empty value', value: 123}
 ```
